@@ -1,0 +1,15 @@
+language: python
+python:
+- 3.6
+install:
+- pip install -r requirements.txt
+script:
+- python -m unittest discover
+branches:
+  only:
+  - master
+deploy:
+  provider: heroku
+  api_key:
+    secure: ea73bb14-3744-4c38-b862-7fc9f0e896d9  
+app: thawing-waters-63813
