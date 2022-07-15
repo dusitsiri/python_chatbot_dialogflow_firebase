@@ -41,4 +41,4 @@ urllib3>=1.24.2
 Werkzeug==0.15.3
 wrapt==1.11.1
 line-bot-sdk==1.7.1
-codecov==2.0.15
+codecov==2.0.16
